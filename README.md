@@ -17,7 +17,9 @@ This project requires the following Python libraries:
 ## Acces data
 
 To acces the data, please install the data from the fitbit and put the csv file in the datasets directory with the following name:
-'IER_Fitbit_Data_2024.csv'.
+'IER_Fitbit_Data_2024.csv'. The csv file can be found using the following link:
+
+https://brightspace.tudelft.nl/d2l/le/content/596702/viewContent/3647699/View 
 
 ## Installation
 
