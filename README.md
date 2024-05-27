@@ -1,6 +1,6 @@
 # Please follow the instruction carefully to fully run the script
 
-**NOTE:** Please always run the scripts from the IER_2023 directory. This will make sure that the paths to the csv files with data will be correct.
+**NOTE:** Please always run the scripts from the directory where this README file is in. This will make sure that the paths to the csv files with data will be correct.
 
 # Project Dependencies
 
@@ -33,7 +33,7 @@ Here will be the the lines of code that needs to be runned.
 
 ### Data preparation
 
-From the 'IER_2023' directory, run the following lines of code for data preparation:
+Run the following lines of code for data preparation:
 
 ```bash
 python .\data_preparation\average_steps_all_days.py
