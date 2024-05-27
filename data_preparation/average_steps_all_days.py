@@ -18,7 +18,7 @@ columns_to_average2 = [
     'stap_app_4_aantal', 'stap_app_5_aantal', 'stap_app_6_aantal', 'stap_app_7_aantal'
 ]
 
-# Calculate the average of these columns for each row
+# Average of columns for each row
 data['average_steps_fitbit'] = data[columns_to_average].mean(axis=1)
 data['average_steps_app'] = data[columns_to_average2].mean(axis=1)
 
@@ -28,5 +28,5 @@ columns_to_average3 = [
 
 data['average_steps_tot'] = data[columns_to_average3].mean(axis=1)
 
-# Save the updated data to a new CSV file
+# Save the updated dataset
 data.to_csv(R'datasets\updated_dataset.csv', index=False)

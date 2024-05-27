@@ -18,11 +18,11 @@ data = pd.get_dummies(data, columns=['gender', 'living'], drop_first=True)
 # Drop rows with NaN values
 data = data.dropna(subset=['bmi', 'stap_est', 'StepDifference', 'gender_Male', 'living_Moved_out'])
 
-# Define the independent variables (demographic factors) and the dependent variable (step difference)
+# Define variables
 X = data[['bmi', 'gender_Male', 'living_Moved_out']]
 y = data['StepDifference']
 
-# Normalize the independent variables
+# Normalize
 scaler = StandardScaler()
 X_scaled = scaler.fit_transform(X)
 
@@ -35,7 +35,7 @@ model.fit(X_train, y_train)
 
 print(model.coef_)
 
-# Plot the coefficients of the regression model
+# Plot the coefficients
 coefficients = pd.DataFrame(model.coef_, X.columns, columns=['Coefficient'])
 ax = coefficients.plot(kind='bar', color='#555555')
 plt.ylabel('Coefficient Value')
