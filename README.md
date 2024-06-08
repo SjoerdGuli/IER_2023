@@ -56,29 +56,34 @@ Still from the 'research' directory, run the following scripts to get the data p
 
 Gives a table of all data needed in the table in the report:
 ```bash
-python .\analysys\table_information.py
+python .\analysis\table_information.py
 ```
 
 
 Gives the boxplot for perceived vs actual step counts in different years
 ```bash
-python .\analysys\boxplots_next_eachother.py
+python .\analysis\boxplots_next_eachother.py
 ```
 
 
 Gives a bar chart of the perception of phsyical activity and the attitude towards physical activity:
 ```bash
-python .\analysys\barchart_perception_attitude.py
+python .\analysis\barchart_perception_attitude.py
 ```
 
 
 Gives a bar chart with a coefficient on how much impact every demographic factor has on the difference in perceived vs actual physical activity:
 ```bash
-python .\analysys\regression.py
+python .\analysis\regression.py
 ```
 
 
 Gives a clearer line regression for the impact of bmi on perceived vs actual physical activity:
 ```bash
-python .\analysys\bmi_regression.py
+python .\analysis\bmi_regression.py
+```
+
+Finally, the paired T-test gives the p-value which concludes there is no significance
+```bash
+python .\analysis\t_test.py
 ```
