@@ -66,13 +66,13 @@ python .\analysys\boxplots_next_eachother.py
 ```
 
 
-Gives a bar chart of the perceiption of phsyical activity and the attitude towards physical activity:
+Gives a bar chart of the perception of phsyical activity and the attitude towards physical activity:
 ```bash
 python .\analysys\barchart_perception_attitude.py
 ```
 
 
-Gives a bar chart with a coefficient on how much impact every demogprahic factor has on the difference in perceived vs actual physical activity:
+Gives a bar chart with a coefficient on how much impact every demographic factor has on the difference in perceived vs actual physical activity:
 ```bash
 python .\analysys\regression.py
 ```
