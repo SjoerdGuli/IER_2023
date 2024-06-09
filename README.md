@@ -2,6 +2,12 @@
 
 **NOTE:** Please always run the scripts from the directory where this README file is in. This will make sure that the paths to the csv files with data will be correct.
 
+## Description of the project
+This Github repository is part of course ME41125 from the Master Robotics from the TU Delft. Different datasets are given to the students, they can choose which dataset they find interesting. In the end, a report has to be written about the dataset, containing a research question based on a research gap they have found.
+
+## Methodology
+The code was provided by the TU Delft. All data from 2022 and 2023 was deleted for this particular study. Actual step counts were added for each day and divided by seven (seven days in the week), to get the average steps a day. All other scripts will be explained in the instructions below.
+
 # Project Dependencies
 
 This project requires the following Python libraries:
